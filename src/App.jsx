@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='w-screen rounded-sm'>
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-      <Viewer fileUrl="../src/document/carta.pdf" />;
+      <Viewer fileUrl="/carta.pdf" />;
       </Worker>
     </div>
   )
